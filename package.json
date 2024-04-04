@@ -1,0 +1,25 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "test": "npx playwright test",
+    "display": "npx playwright show-report",
+    "test.sauce.us": "saucectl run --region us-west-1",
+    "test.sauce.eu": "saucectl run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.36.2",
+    "allure-playwright": "2.5.0",
+    "saucectl": "^0.155.1",
+    "typescript": "5.1.6"
+  },
+  "dependencies": {
+    "follow-redirects": "^1.15.2"
+  }
+}

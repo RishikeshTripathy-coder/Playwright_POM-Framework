@@ -1,0 +1,12 @@
+{
+    "Email": "rishikesh4999@gmail.com",
+    "Password": "Pass@123",
+    "EmptyCredentials": {
+        "EmptyEmailID": "",
+        "EmptyPassword": ""
+    },
+    "IncorrectCredentials": {
+        "IncorrectEmailID": "abc@gmail.com",
+        "IncorrectPassword": "QWERTY"
+    }
+}
